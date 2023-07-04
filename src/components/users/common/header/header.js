@@ -20,7 +20,7 @@ const Header = () => {
               Home
             </Nav.Link>
             <Nav.Link as={Link} to="/vehicles">
-              Vehicles
+              Solutions
             </Nav.Link>
             <Nav.Link as={Link} to="/about">
               About
@@ -29,7 +29,6 @@ const Header = () => {
               Contact
             </Nav.Link>
           </Nav>
-
           <UserMenu />
         </Navbar.Collapse>
       </Container>
