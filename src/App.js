@@ -28,7 +28,7 @@ const App = () => {
 
   useEffect(() => {
     loadData();
-    document.title = `${settings.siteName} | Premium Car Rental`;
+    document.title = `${settings.siteName} | Deutsche Multimedia Konzepte GmbH & Co. KG`;
   }, []);
 
   return <>{loading ? <LoadingPage /> : <CustomRoutes />}</>;

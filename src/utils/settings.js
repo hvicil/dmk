@@ -1,11 +1,11 @@
 export const settings = {
   apiURL: "https://carrental-v2-backend.herokuapp.com",
-  siteName: "Green",
-  siteUrl: "greenrents.de",
-  email: "support@greenrents.de",
-  phone1: "(609)-203-0997",
-  phone2: "(609)-218-9730",
-  address: "244 Perry Street, Trenton, NJ, USA",
+  siteName: "DMK",
+  siteUrl: "www.dmk-baupartner.de",
+  email: "info@dmk-baupartner.de",
+  phone1: "+49 531 39399450",
+  phone2: "+49 531 39399450",
+  address: "Rosental 4,38114 Braunschweig, Germany",
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.3151609991837!2d-74.76253838429787!3d40.22429437524388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c159cb00d415c7%3A0x3094e04878e3d499!2s244%20Perry%20St%2C%20Trenton%2C%20NJ%2008618%2C%20USA!5e0!3m2!1sen!2str!4v1663792628886!5m2!1sen!2str",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2441.583218518647!2d10.510486076960667!3d52.269113054773875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47aff712bc12b197%3A0x1ec8a682e315bfff!2sDMK%20Deutsche%20Multimedia%20Konzepte%20GmbH%20%26%20Co.%20KG!5e0!3m2!1str!2sde!4v1688471709841!5m2!1str!2sde",
 };

@@ -12,5 +12,12 @@
     "buttonText": "Rent Now",
     "buttonLink": "",
     "image": "slider2.png"
+  },
+  {
+    "title": "Quality Cars with Unlimited Miles",
+    "description": "We also have convertible, luxury and premium options if you want a more upscale rental",
+    "buttonText": "Rent Now",
+    "buttonLink": "",
+    "image": "slider3.png"
   }
 ]
