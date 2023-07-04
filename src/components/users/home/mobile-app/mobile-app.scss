@@ -1,0 +1,19 @@
+@use "../../../../assets/scss/variables" as v;
+
+.mobile-app {
+  background-image: linear-gradient(v.$color4, v.$color3);
+  padding: 4rem;
+  .store {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+
+  [class^="col-"]:last-child {
+    text-align: center;
+
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+  }
+}
