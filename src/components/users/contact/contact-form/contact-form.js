@@ -55,7 +55,7 @@ const ContactForm = () => {
   return (
     <Container className="contact-form">
       <Row className="g-5">
-        <Col md={6}>
+        <Col>
           <SectionHeader title="Contact Us" subTitle="Need additional info?" />
           <Spacer height={20} />
           <p>
@@ -66,67 +66,6 @@ const ContactForm = () => {
           </p>
           <Spacer height={20} />
           <ContactInfo />
-        </Col>
-        <Col md={6}>
-          <Form noValidate onSubmit={formik.handleSubmit}>
-            <Form.Group className="mb-3">
-              <Form.Label>Name</Form.Label>
-              <Form.Control
-                type="text"
-                {...formik.getFieldProps("name")}
-                isInvalid={formik.errors.name && formik.touched.name}
-                isValid={!formik.errors.name}
-              />
-              <Form.Control.Feedback type="invalid">
-                {formik.errors.name}
-              </Form.Control.Feedback>
-            </Form.Group>
-            <Form.Group className="mb-3">
-              <Form.Label>Email</Form.Label>
-              <Form.Control
-                type="email"
-                {...formik.getFieldProps("email")}
-                isInvalid={formik.errors.email && formik.touched.email}
-                isValid={!formik.errors.email}
-              />
-              <Form.Control.Feedback type="invalid">
-                {formik.errors.email}
-              </Form.Control.Feedback>
-            </Form.Group>
-            <Form.Group className="mb-3">
-              <Form.Label>Subject</Form.Label>
-              <Form.Control
-                type="text"
-                {...formik.getFieldProps("subject")}
-                isInvalid={formik.errors.subject && formik.touched.subject}
-                isValid={!formik.errors.subject}
-              />
-              <Form.Control.Feedback type="invalid">
-                {formik.errors.subject}
-              </Form.Control.Feedback>
-            </Form.Group>
-            <Form.Group className="mb-3">
-              <Form.Label>Message</Form.Label>
-              <Form.Control
-                as="textarea"
-                rows={3}
-                maxLength={200}
-                {...formik.getFieldProps("body")}
-                isInvalid={formik.errors.body && formik.touched.body}
-                isValid={!formik.errors.body}
-              />
-              <Form.Control.Feedback type="invalid">
-                {formik.errors.body}
-              </Form.Control.Feedback>
-            </Form.Group>
-            <Button
-              variant="primary"
-              type="submit"
-              disabled={!(formik.dirty && formik.isValid) || loading}
-            >
-              {loading && <Spinner animation="border" size="sm" />} Send Message
-            </Button>
-          </Form>
         </Col>
       </Row>
     </Container>

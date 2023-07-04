@@ -1,8 +1,8 @@
 import React from "react";
 import SectionHeader from "../../common/section-header/section-header";
-import './why-choose-us.scss'
-import {Container,Row,Col,Button} from 'react-bootstrap'
-import {GiPayMoney,GiTakeMyMoney,GiVacuumCleaner} from 'react-icons/gi'
+import "./why-choose-us.scss";
+import { Container, Row, Col, Button } from "react-bootstrap";
+import { GiPayMoney, GiTakeMyMoney, GiVacuumCleaner } from "react-icons/gi";
 const WhyChooseUs = () => {
   return (
     <Container fluid className="why-choose-us">
@@ -25,7 +25,9 @@ const WhyChooseUs = () => {
               us your travel dates and we'll show you which cars are available
               with the best prices.
             </p>
-            <Button className="btn-about" variant="primary">Rent Now</Button>
+            <Button className="btn-about" variant="primary">
+              Rent Now
+            </Button>
           </Col>
           <Col md={6}>
             <ul>
@@ -54,14 +56,16 @@ const WhyChooseUs = () => {
                 </div>
               </li>
               <li>
-                  <div>
-                     <GiVacuumCleaner/> 
-                  </div>
-                  <div>
-                      <h3>Hygienic Cars</h3>
-                      <p>We disinfect our vehicles before giving them to you to keep
-                    you safe in the driver's seat.</p>
-                  </div>
+                <div>
+                  <GiVacuumCleaner />
+                </div>
+                <div>
+                  <h3>Hygienic Cars</h3>
+                  <p>
+                    We disinfect our vehicles before giving them to you to keep
+                    you safe in the driver's seat.
+                  </p>
+                </div>
               </li>
             </ul>
           </Col>

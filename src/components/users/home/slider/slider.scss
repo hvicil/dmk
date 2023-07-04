@@ -9,6 +9,7 @@
   min-height: 500px;
   @include m.flexbox(row, flex-start, stretch, 0rem);
   position: relative;
+  opacity: 100%;
 
   &::before {
     content: "";
@@ -35,6 +36,7 @@
           position: absolute;
           right: 0;
           bottom: 0;
+          height: 100%;
           @media (max-width: 900px) {
             display: none;
           }

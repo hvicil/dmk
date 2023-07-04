@@ -50,11 +50,7 @@ const UserMenu = () => {
           </Dropdown.Menu>
         </Dropdown>
       ) : (
-        <div>
-          <Button variant="primary" as={Link} to="/auth?type=login">
-            Signin
-          </Button>
-        </div>
+        <div></div>
       )}
     </div>
   );

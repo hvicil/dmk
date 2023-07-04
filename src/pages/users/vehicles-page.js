@@ -6,7 +6,7 @@ import Vehicles from "../../components/users/vehicles/vehicles";
 const VehiclesPage = () => {
   return (
     <>
-      <PageHeader title="Vehicles" />
+      <PageHeader title="Solutions" />
 
       <Spacer />
       <Vehicles />
