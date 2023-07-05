@@ -59,10 +59,9 @@ const ContactForm = () => {
           <SectionHeader title="Contact Us" subTitle="Need additional info?" />
           <Spacer height={20} />
           <p>
-            Looking for a small or medium economy car rental or something a
-            little larger to fit all the family? We have a great range of new
-            and comfortable rental cars to choose from. Browse our fleet range
-            now and rent a car online today.
+            Registereintrag: Amtsgericht: Braunschweig Reg. No.: HRA 202830
+            Umsatzsteuer-ID gemäß §27a Umsatzsteuergesetz UST-ID Nr.:
+            DE353478490
           </p>
           <Spacer height={20} />
           <ContactInfo />

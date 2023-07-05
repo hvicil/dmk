@@ -15,10 +15,7 @@ const Footer = () => {
             <Link to="/">
               <img src={logo} alt={settings.siteName} className="img-fluid" />
             </Link>
-            <p>
-              Check out our new fleet of cars, latest offers, our advantages and
-              free extras online. Choose from one of our new car models.
-            </p>
+            <p>Contact us</p>
           </Col>
           <Col md={6} lg={3}>
             <h2>Quick Links</h2>
@@ -27,7 +24,7 @@ const Footer = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/vehicles">Vehicles</Link>
+                <Link to="/vehicles">Solutions</Link>
               </li>
               <li>
                 <Link to="/about">About us</Link>
