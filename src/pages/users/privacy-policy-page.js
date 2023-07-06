@@ -11,7 +11,7 @@ const PrivacyPolicyPage = () => {
       <Spacer />
       <Container>
         <h1>Privacy Policy</h1>
-        <p>Last updated: August 16, 2022</p>
+        <p>Last updated: August 01, 2023</p>
         <p>
           This Privacy Policy describes Our policies and procedures on the
           collection, use and disclosure of Your information when You use the
@@ -73,7 +73,7 @@ const PrivacyPolicyPage = () => {
           </li>
           <li>
             <p>
-              <strong>Country</strong> refers to: United States
+              <strong>Country</strong> refers to: Germany
             </p>
           </li>
           <li>
@@ -116,11 +116,7 @@ const PrivacyPolicyPage = () => {
             <p>
               <strong>Website</strong> refers to {settings.siteName}, accessible
               from{" "}
-              <a
-                href={settings.siteUrl}
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a href={settings.siteUrl} rel="noreferrer" target="_blank">
                 {settings.siteUrl}
               </a>
             </p>
