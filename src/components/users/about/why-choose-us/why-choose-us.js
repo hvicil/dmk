@@ -2,7 +2,8 @@ import React from "react";
 import SectionHeader from "../../common/section-header/section-header";
 import "./why-choose-us.scss";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { GiPayMoney, GiTakeMyMoney, GiVacuumCleaner } from "react-icons/gi";
+import { GiPerson, GiWorld, GiFlexibleLamp } from "react-icons/gi";
+import Spacer from "../../../common/spacer/spacer";
 const WhyChooseUs = () => {
   return (
     <Container fluid className="why-choose-us">
@@ -11,59 +12,58 @@ const WhyChooseUs = () => {
         className="img-fluid"
         alt="vahicles"
       />
+      <Spacer />
       <Container>
         <Row className="g-5">
           <Col md={6}>
             <SectionHeader
-              title="Best valued deals you will ever find"
+              title="We take our work very seriously"
               subtitle="Why Choose Us"
             />
             <p>
-              Whether you're flying into undefined for a short break or a longer
-              stay, you can take the stress out of your onward journey by
-              renting a car. We make it easy to find the best deal. Simply tell
-              us your travel dates and we'll show you which cars are available
-              with the best prices.
+              The most effective way to answer this interview question is to
+              flip the question to focus on what you have to offer and explain
+              why you want the position. By emphasizing how you can contribute
+              to the company's success and make an impact, you can showcase your
+              value as a candidate.
             </p>
-            <Button className="btn-about" variant="primary">
-              Rent Now
-            </Button>
           </Col>
           <Col md={6}>
             <ul>
               <li>
                 <div>
-                  <GiPayMoney />
+                  <GiPerson />
                 </div>
                 <div>
-                  <h3>Price Equalization</h3>
+                  <h3>Highly qualified employees</h3>
                   <p>
-                    If you find the same service cheaper, we will provide the
-                    service at the price you found
+                    Staff having a tertiary education degree and at least 5
+                    years of relevant professional experience which may also
+                    include doctoral training
                   </p>
                 </div>
               </li>
               <li>
                 <div>
-                  <GiTakeMyMoney />
+                  <GiWorld />
                 </div>
                 <div>
-                  <h3>No Extra Price</h3>
+                  <h3>Years of experience</h3>
                   <p>
-                    You will not encounter surprise payments. You know exactly
-                    what you're paying for.
+                    A measure which adds the amount of all the past experiences
+                    through the present
                   </p>
                 </div>
               </li>
               <li>
                 <div>
-                  <GiVacuumCleaner />
+                  <GiFlexibleLamp />
                 </div>
                 <div>
-                  <h3>Hygienic Cars</h3>
+                  <h3>Flexible collaboration</h3>
                   <p>
-                    We disinfect our vehicles before giving them to you to keep
-                    you safe in the driver's seat.
+                    Working together with people from across the business to
+                    achieve a shared goal
                   </p>
                 </div>
               </li>

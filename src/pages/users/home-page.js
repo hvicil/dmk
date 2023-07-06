@@ -11,10 +11,8 @@ const HomePage = () => {
     <>
       <Slider />
       <Spacer />
-      <Spacer />
       <RentPath />
       <Spacer />
-      <MobileApp />
       <Spacer />
       <WhyChooseUs />
       <Spacer />
