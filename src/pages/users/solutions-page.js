@@ -12,6 +12,8 @@ const SolutionsPage = () => {
       <Spacer />
       <RentPath />
       <Spacer />
+      <WhyChooseUs />
+      <Spacer />
     </>
   );
 };

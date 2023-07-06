@@ -9,8 +9,6 @@ const AboutPage = () => {
     <>
       <PageHeader title="About Us" />
       <Spacer />
-      <RentPath />
-      <Spacer />
       <WhyChooseUs />
       <Spacer />
     </>
